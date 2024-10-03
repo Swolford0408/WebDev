@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!-- <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -19,8 +19,8 @@
         }
     </style>
 
-    <link href="images/BreadIcon.png" rel="icon" type="image/png"/><!--favicon next to website title-->
-    <link href="css/bootstrap.min.css" rel="stylesheet"/>
+    <link href="images/BreadIcon.png" rel="icon" type="image/png"/>favicon next to website title -->
+    <!-- <link href="css/bootstrap.min.css" rel="stylesheet"/>
     <link href="css/animate.min.css" rel="stylesheet"/>
     <link href="css/bootstrap-icons.css" rel="stylesheet"/>
     <link href="css/dataTables.css" rel="stylesheet"/>
@@ -29,16 +29,16 @@
    
 </head>
 <body background="images/BreadBack.jfif" style="background-repeat: no-repeat; background-size: cover; background-attachment: fixed;">
-    <!--Navbar at the top of the page-->
-    <nav id="divNavbar" class="navbar navbar-expand-lg navbar-custom">
+    Navbar at the top of the page -->
+    <!-- <nav id="divNavbar" class="navbar navbar-expand-lg navbar-custom">
         <div class="container-fluid col-6">
             <a class="navbar-brand charcoal-text fs-1" href="index.html">
                 <img src="images/BreadIcon.png" alt="BakerySite logo" width="50" height="50">
                 <strong>Rolling Scones</strong>
             </a>
-        </div>
+        </div> -->
       <!--Navigation Button-->
-      <div class="col-6 d-flex justify-content-end">
+      <!-- <div class="col-6 d-flex justify-content-end">
         <button id="btnHamburger" title="btnHamburger" class="btn dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
             <i class="bi-list fs-1"> </i>
         </button>
@@ -58,8 +58,10 @@
     <style>
         .err { background: #ffe6ee; border: 1px solid #b1395f; }
         .emsg { color: #c12020; font-weight: bold; }
-    </style>    
+    </style>     -->
+{% extends 'base.html' %} 
 
+{% block content %}
     <!-- Central Card -->
     <div class="d-flex align-items-center justify-content-center">
         <!--Login Form-->
@@ -334,9 +336,9 @@
             </div>
         </div>
     </div>
-
+{% endblock %}
     <!--START OF JAVASCRIPT-->
-
+<!-- 
     <script src="/js/jsource/jquery.js"></script>
     <script src="/js/jsource/chart.js"></script>
     <script src="/js/jsource/dataTables.js"></script>
@@ -349,4 +351,4 @@
     <script src="/js/temp.js"></script>
     <script src="/js/ingredients.js"></script>
 </body>
-</html>
+</html> -->
